@@ -1,0 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    ::selection {
+        color: $color-principal;
+        background-color: $color-secundario;
+    }
+}

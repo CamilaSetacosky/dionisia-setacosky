@@ -1,0 +1,9 @@
+$color-principal: #84a59d; 
+$color-secundario: #f7ede2; 
+
+%iconos {
+    color: black;
+    &:hover {
+        color: $color-secundario;
+    }
+}

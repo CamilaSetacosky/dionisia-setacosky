@@ -1,0 +1,13 @@
+.bg-nav {
+    background-color: white;
+    .titulo-nav {
+        letter-spacing: 10px;
+        color: black;
+    }
+    .text-item a {
+        color: black;
+        &:hover {
+            color: $color-principal;
+        }
+    }
+}

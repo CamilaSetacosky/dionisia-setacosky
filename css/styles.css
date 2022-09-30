@@ -1,0 +1,138 @@
+.bg-footer .bi-instagram, .bg-footer .bi-facebook, .bg-footer .bi-whatsapp {
+  color: black; }
+  .bg-footer .bi-instagram:hover, .bg-footer .bi-facebook:hover, .bg-footer .bi-whatsapp:hover {
+    color: #f7ede2; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+  body ::selection {
+    color: #84a59d;
+    background-color: #f7ede2; }
+
+.bg-nav {
+  background-color: white; }
+  .bg-nav .titulo-nav {
+    letter-spacing: 10px;
+    color: black; }
+  .bg-nav .text-item a {
+    color: black; }
+    .bg-nav .text-item a:hover {
+      color: #84a59d; }
+
+.titulo-header {
+  letter-spacing: 4px; }
+
+.titulo-main {
+  color: #84a59d;
+  height: 10vh;
+  letter-spacing: 7px; }
+
+.btn-primary {
+  color: white;
+  background-color: #84a59d;
+  border-color: #84a59d; }
+
+.btn:first-child:hover,
+:not(.btn-check) + .btn:hover {
+  color: #84a59d;
+  background-color: #f7ede2;
+  border-color: #84a59d; }
+
+.bg-footer {
+  color: black;
+  background-color: #84a59d;
+  height: 20vh; }
+  .bg-footer h5 {
+    font-family: 'Dancing Script', cursive; }
+
+.banner {
+  background-image: url(../images/algodones-banner.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 40vh;
+  font-family: 'Dancing Script', cursive; }
+
+.comentario {
+  width: 65vh;
+  color: #84a59d;
+  box-shadow: #84a59d 0px 4px 16px, #84a59d9f 0px 8px 32px; }
+  .comentario:hover {
+    color: white;
+    background-color: #84a59d; }
+
+.comentar a {
+  color: #84a59d; }
+
+.error {
+  height: 40vh; }
+
+.titulo-aroma {
+  color: #84a59d; }
+
+section[id] {
+  scroll-margin-top: 120px; }
+
+.modal-title {
+  color: #84a59d; }
+
+.btn-close:focus {
+  box-shadow: 0 0 0 0.2rem #84a59d; }
+
+.bg-contacto {
+  background-color: #f7ede2; }
+
+.form-control {
+  border-color: #84a59d; }
+  .form-control:focus {
+    color: #84a59d;
+    background-color: #f7ede2;
+    border-color: #84a59d;
+    outline: 0;
+    box-shadow: #84a59d 0px 4px 16px; }
+
+.circulo-inicio {
+  width: 230px;
+  height: 230px;
+  color: #84a59d;
+  background-color: #f5cac3;
+  transition: transform .3s; }
+  .circulo-inicio:hover {
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: #f5cac3 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; }
+
+.circulo-beneficio {
+  width: 240px;
+  height: 240px;
+  border: 3px solid white;
+  box-shadow: #84a59d 0px 4px 16px, #84a59d9f 0px 8px 32px; }
+
+@media (max-width: 575.98px) {
+  /* Main */
+  h1 {
+    text-align: center; }
+  /* Banner */
+  .text-white {
+    text-align: center; }
+  /* Quienes Somos */
+  .quienes-somos {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .comentario {
+    width: 30vh; }
+  /* Error 404 */
+  .error {
+    height: 25vh; }
+  /* Beneficios */
+  .beneficios {
+    flex-direction: column;
+    margin-top: none; }
+  /* Footer */
+  .color-copi {
+    text-align: center; } }

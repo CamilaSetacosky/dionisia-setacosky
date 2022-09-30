@@ -1,0 +1,12 @@
+.btn-primary {
+    color: white;
+    background-color: $color-principal;
+    border-color: $color-principal;
+}
+
+.btn:first-child:hover,
+:not(.btn-check)+.btn:hover {
+    color: $color-principal;
+    background-color: $color-secundario;
+    border-color: $color-principal;
+}

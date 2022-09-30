@@ -1,0 +1,12 @@
+.bg-footer {
+    color: black;
+    background-color: $color-principal;
+    height: 20vh;
+    h5 {
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .bi-instagram, .bi-facebook, .bi-whatsapp {
+        @extend %iconos;
+    }
+}

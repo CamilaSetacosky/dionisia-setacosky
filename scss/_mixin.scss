@@ -1,0 +1,21 @@
+@mixin tamanos ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.circulo-inicio {
+    @include tamanos (230px, 230px);
+    color: $color-principal;
+    background-color: #f5cac3;
+    transition: transform .3s;
+    &:hover {
+        transform: scale(1.1) translateY(-10px);
+        box-shadow: #f5cac3 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    }
+}
+
+.circulo-beneficio {
+    @include tamanos (240px, 240px);
+    border: 3px solid white;
+    box-shadow: #84a59d 0px 4px 16px, #84a59d9f 0px 8px 32px;
+}

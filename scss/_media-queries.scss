@@ -1,0 +1,39 @@
+@media (max-width: 575.98px) {
+
+    /* Main */
+    h1 {
+        text-align: center;
+    }
+
+    /* Banner */
+    .text-white {
+        text-align: center;
+    }
+
+    /* Quienes Somos */
+    .quienes-somos {
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .comentario {
+        width: 30vh;
+    }
+
+    /* Error 404 */
+    .error {
+        height: 25vh;
+    }
+
+     /* Beneficios */
+     .beneficios {
+        flex-direction: column;
+        margin-top: none;
+    }
+
+    /* Footer */
+    .color-copi {
+        text-align: center;
+    }
+}

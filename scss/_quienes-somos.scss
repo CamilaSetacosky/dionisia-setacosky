@@ -1,0 +1,15 @@
+.comentario {
+    width: 65vh;
+    color: $color-principal;
+    box-shadow: #84a59d 0px 4px 16px, #84a59d9f 0px 8px 32px;
+    &:hover {
+        color: white;
+        background-color: $color-principal;
+    }
+}
+
+.comentar {
+    a {
+        color: $color-principal;
+    }
+}

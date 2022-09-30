@@ -1,0 +1,11 @@
+section[id] {
+    scroll-margin-top: 120px;
+}
+
+.modal-title {
+    color: $color-principal;
+}
+
+.btn-close:focus {
+    box-shadow: 0 0 0 0.20rem $color-principal;
+}

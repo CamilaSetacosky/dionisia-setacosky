@@ -1,0 +1,14 @@
+.bg-contacto {
+    background-color: $color-secundario;
+}
+
+.form-control {
+    border-color: $color-principal;
+    &:focus {
+        color: $color-principal;
+        background-color: $color-secundario;
+        border-color: $color-principal;
+        outline: 0;
+        box-shadow: #84a59d 0px 4px 16px;
+    }
+}
